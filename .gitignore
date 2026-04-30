@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+
+# Playwright outputs
+test-results/
+playwright-report/
+playwright/.cache/
+blob-report/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# TypeScript build info
+*.tsbuildinfo
